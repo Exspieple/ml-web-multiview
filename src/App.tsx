@@ -1,14 +1,15 @@
-import './App.css'
-import { Button } from './components/ui/button'
+import "./App.css";
+import VideoGrid from "./components/multiview/VideoGrid";
+import VideoDataContextProvider from "./contexts/VideoDataContext";
 
 function App() {
-
   return (
     <>
-      Hallo Welt 
-      <Button variant="destructive">Click me</Button>
+      <VideoDataContextProvider>
+        <VideoGrid />
+      </VideoDataContextProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

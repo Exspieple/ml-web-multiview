@@ -1,0 +1,66 @@
+[
+    {
+        "platform": "youtube",
+        "platformID": "fFl0qD108sk",
+        "label": "RNO Reno Airport",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "MH0_mPt-VXE",
+        "label": "MSY New Orleans",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "NtbquzembC8",
+        "label": "ACE Lanzarote Airport",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "_-Qg5jD-PfA",
+        "label": "LAS Vegas Airport",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "2IQmpCXbOmM",
+        "label": "SXM Sint Maarten Maho Beach Airport",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "n4I0d44oBEs",
+        "label": "LAX Los Angeles Airport",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "RXmUt7GgoS4",
+        "label": "ATH Athens Airport",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "sspBOJIrNzU",
+        "label": "PRG Prague Vaclav Havel Airport",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    }
+]

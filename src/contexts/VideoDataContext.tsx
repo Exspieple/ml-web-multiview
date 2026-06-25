@@ -18,7 +18,7 @@ export default function VideoDataContextProvider({
   const [videoData, setVideoData] = useState<[VideoTileType]>([{platform: "", platformID: ""}]);
 
   useEffect(() => {
-    fetch("/data/webcams.json")
+    fetch("/data/webcamsAfricam.json")
       .then((res) => res.json())
       .then(setVideoData);
   }, []);

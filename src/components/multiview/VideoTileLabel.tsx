@@ -1,4 +1,4 @@
-import { VolumeOff } from "lucide-react";
+import { LockOpen, Volume2 } from "lucide-react";
 
 import { useContext } from "react";
 import { VideoDataContext } from "../../contexts/VideoDataContext";
@@ -16,8 +16,9 @@ export default function VideoTileLabel() {
         <div className="text-white text-center w-full">
           {thisVideoIndex + 1} {thisVideo.label && `- ${thisVideo.label}`}
         </div>
-        <div>
-          {thisVideo.isMuted && <VolumeOff color="red" size="1em" />}
+        <div className="flex gap-1">
+          {!thisVideo.isMuted && <Volume2 color="lime" size="1em" />}
+          {!thisVideo.isLocked && <LockOpen color="orange" size="1em" />}
         </div>
       </div>
     </>

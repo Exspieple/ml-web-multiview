@@ -1,4 +1,4 @@
-import { LockOpen, RotateCcw, Settings, Tag, Volume2 } from "lucide-react";
+import { LockOpen, RotateCw, Settings, Tag, Volume2 } from "lucide-react";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 
@@ -51,7 +51,7 @@ function BtnReload() {
 
   return (
     <Button variant={"outline"} onClick={onclick}>
-      <RotateCcw />
+      <RotateCw />
     </Button>
   );
 }

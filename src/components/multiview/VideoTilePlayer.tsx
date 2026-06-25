@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { VideoDataContext } from "../../contexts/VideoDataContext";
 import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
+import { cn } from "../../lib/utils";
 
 export default function VideoTileLabel() {
   const { videoData, setVideoData } = useContext(VideoDataContext);
@@ -22,7 +23,7 @@ export default function VideoTileLabel() {
 
   return (
     <>
-      <div className="aspect-video w-full h-full">
+      <div className={cn("absolute w-full h-full", thisVideo.isLocked && "pointer-events-none")}>
         <iframe
           src={thisVideoURL}
           className="w-full h-full"

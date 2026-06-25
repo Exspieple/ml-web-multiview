@@ -12,7 +12,7 @@ export default function VideoTileLabel() {
 
   return (
     <>
-      <div className="absolute bottom-0 left-0 right-0 bg-[hsl(0_0%_0%/0.8)] flex justify-between items-center py-1 px-2">
+      <div className="absolute bottom-0 left-0 right-0 bg-[hsl(0_0%_0%/0.8)] flex justify-between items-center py-1 px-2 z-10">
         <div className="text-white text-center w-full">
           {thisVideoIndex + 1} {thisVideo.label && `- ${thisVideo.label}`}
         </div>

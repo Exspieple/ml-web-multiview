@@ -4,10 +4,11 @@ import VideoTileContextMenu from "./VideoTileContextMenu";
 
 export default function VideoTile() {
   return (
-      <div className="w-full h-full relative">
-        <VideoTileContextMenu />
+    <div className="w-full aspect-video relative">
+      <VideoTileContextMenu>
         <VideoTileLabel />
-        <VideoTilePlayer />
-      </div>
+      </VideoTileContextMenu>
+      <VideoTilePlayer />
+    </div>
   );
 }

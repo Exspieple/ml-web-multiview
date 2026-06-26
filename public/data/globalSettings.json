@@ -1,0 +1,10 @@
+{
+      "isLabelsHidden": false,
+      "isMutedOverwrite": null,
+      "multiviewPresets": [
+        { "label": "African wildlife", "hrefJSON": "/data/webcamsAfricam.json"
+        },
+        { "label": "Airports", "hrefJSON": "/data/webcamsAirports.json"
+        }
+    ]
+}

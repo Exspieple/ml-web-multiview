@@ -5,7 +5,7 @@ import { VideoDataContext } from "../../contexts/VideoDataContext";
 import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
 
 export default function VideoTileLabel() {
-  const { videoData, setVideoData } = useContext(VideoDataContext);
+  const { videoData } = useContext(VideoDataContext);
 
   const thisVideoIndex = useContext(VideoTileIndexContext);
   const thisVideo = videoData[thisVideoIndex];

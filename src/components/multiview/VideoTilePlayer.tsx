@@ -10,12 +10,12 @@ export default function VideoTileLabel({
 }: {
   iframeRef?: React.RefObject<HTMLIFrameElement | null>;
 }) {
-  const { videoData, setVideoData } = useContext(VideoDataContext);
+  const { videoData } = useContext(VideoDataContext);
 
   const thisVideoIndex = useContext(VideoTileIndexContext);
   const thisVideo = videoData[thisVideoIndex];
 
-  /*   let thisVideoURL = "https://file-examples.com/storage/febcf227476a3e379a0ece5/2017/04/file_example_MP4_480_1_5MG.mp4"; */
+    /* let thisVideoURL = "https://www.pexels.com/download/video/1430660/"; */
 
   let thisVideoURL = "";
   switch (thisVideo.platform) {

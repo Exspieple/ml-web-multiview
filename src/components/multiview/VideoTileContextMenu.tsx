@@ -30,7 +30,7 @@ export default function VideoTileContextMenu({
   const thisVideoIndex = useContext(VideoTileIndexContext);
   const thisVideo = videoData[thisVideoIndex];
 
-  const toggleMute = () => {    
+  function toggleMute() {
     if (!setVideoData) return;
 
     thisVideo.isMuted = !thisVideo.isMuted;
@@ -38,9 +38,9 @@ export default function VideoTileContextMenu({
     setVideoData(
       videoData.toSpliced(thisVideoIndex, 1, thisVideo) as typeof videoData,
     );
-  };
+  }
 
-  /* const toggleFullscreen = () => {    
+  /* function toggleFullscreen() {    
     if (!setVideoData) return;
 
     thisVideo.isFullscreen = !thisVideo.isFullscreen;
@@ -50,7 +50,7 @@ export default function VideoTileContextMenu({
     );
   }; */
 
-  const toggleLock = () => {
+  function toggleLock() {
     if (!setVideoData) return;
 
     thisVideo.isLocked = !thisVideo.isLocked;
@@ -58,13 +58,14 @@ export default function VideoTileContextMenu({
     setVideoData(
       videoData.toSpliced(thisVideoIndex, 1, thisVideo) as typeof videoData,
     );
-  };
-
+  }
 
   return (
     <>
       <ContextMenu>
-        <ContextMenuTrigger className="w-full h-full absolute">{children}</ContextMenuTrigger>
+        <ContextMenuTrigger className="w-full h-full absolute">
+          {children}
+        </ContextMenuTrigger>
         <ContextMenuContent className="z-2147483647">
           <ContextMenuItem onClick={toggleMute}>
             {thisVideo.isMuted ? (
@@ -86,10 +87,10 @@ export default function VideoTileContextMenu({
                 <span>Exit fullscreen</span>
               </>
             ) : ( */}
-              <>
-                <Fullscreen />
-                <span>Fullscreen</span>
-              </>
+            <>
+              <Fullscreen />
+              <span>Fullscreen</span>
+            </>
             {/* )} */}
           </ContextMenuItem>
           <ContextMenuItem onClick={toggleLock}>

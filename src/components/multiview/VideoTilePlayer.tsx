@@ -20,9 +20,9 @@ export default function VideoTileLabel({
     GlobalSettingsContext,
   );
 
-  //let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
+  let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
 
-  let thisVideoURL = "";
+  /* let thisVideoURL = "";
   switch (thisVideo.platform) {
     case "youtube":
       thisVideoURL =
@@ -32,7 +32,7 @@ export default function VideoTileLabel({
     default:
       thisVideoURL = thisVideo.platformID;
       break;
-  }
+  } */
 
   return (
     <>

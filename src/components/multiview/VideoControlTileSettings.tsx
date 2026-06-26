@@ -1,4 +1,4 @@
-import { LockOpen, RotateCw, Settings, Tag, Volume2 } from "lucide-react";
+import { LockOpen, RotateCw, Settings, Tag, Volume2, VolumeX } from "lucide-react";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 import { useContext } from "react";
@@ -30,15 +30,31 @@ function BtnLock() {
 }
 
 function BtnMute() {
+  const { globalSettings, setGlobalSettings } = useContext(
+    GlobalSettingsContext,
+  );
+
+  function toggleMutedOverwrite() {
+    if (!setGlobalSettings) return;
+
+    setGlobalSettings({
+      ...globalSettings,
+      isMutedOverwrite: !globalSettings.isMutedOverwrite,
+    });
+  }
+
   return (
-    <Button variant={"outline"}>
-      <Volume2 />
+    <Button variant={!globalSettings.isMutedOverwrite ? "outline" : "secondary"} onClick={toggleMutedOverwrite}>
+      {!globalSettings.isMutedOverwrite ? <Volume2 /> : <VolumeX />}
+      
     </Button>
   );
 }
 
 function BtnLabel() {
-  const { globalSettings, setGlobalSettings } = useContext(GlobalSettingsContext);
+  const { globalSettings, setGlobalSettings } = useContext(
+    GlobalSettingsContext,
+  );
 
   function toggleLabel() {
     if (!setGlobalSettings) return;
@@ -50,7 +66,10 @@ function BtnLabel() {
   }
 
   return (
-    <Button variant={globalSettings.isLabelsHidden ? "outline" : "secondary"} onClick={toggleLabel}>
+    <Button
+      variant={globalSettings.isLabelsHidden ? "outline" : "secondary"}
+      onClick={toggleLabel}
+    >
       <Tag />
     </Button>
   );

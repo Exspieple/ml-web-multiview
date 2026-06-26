@@ -1,14 +1,19 @@
-import { LockOpen, Volume2 } from "lucide-react";
+import { LockOpen, Volume2, VolumeX } from "lucide-react";
 
 import { useContext } from "react";
 import { VideoDataContext } from "../../contexts/VideoDataContext";
 import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
+import { GlobalSettingsContext } from "../../contexts/GlobalSettingsContext";
 
 export default function VideoTileLabel() {
   const { videoData } = useContext(VideoDataContext);
 
   const thisVideoIndex = useContext(VideoTileIndexContext);
   const thisVideo = videoData[thisVideoIndex];
+
+  const { globalSettings } = useContext(
+    GlobalSettingsContext,
+  );
 
   return (
     <>
@@ -17,7 +22,8 @@ export default function VideoTileLabel() {
           {thisVideoIndex + 1} {thisVideo.label && `- ${thisVideo.label}`}
         </div>
         <div className="flex gap-1">
-          {!thisVideo.isMuted && <Volume2 color="lime" size="1em" />}
+          {(!thisVideo.isMuted && !globalSettings.isMutedOverwrite) && <Volume2 color="lime" size="1em" />}
+          {(!thisVideo.isMuted && globalSettings.isMutedOverwrite) && <VolumeX color="red" size="1em" />}
           {!thisVideo.isLocked && <LockOpen color="orange" size="1em" />}
         </div>
       </div>

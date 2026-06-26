@@ -2,13 +2,13 @@ import { createContext, useEffect, useState } from "react";
 
 interface GlobalSettingsType {
   isLabelsHidden: boolean;
-  isMutedOverwrite: boolean | null;
+  isMutedOverwrite: boolean;
   multiviewPresets: { label: string; hrefJSON: string }[];
 }
 
 const globalSettingsDefault = {
   isLabelsHidden: false,
-  isMutedOverwrite: null,
+  isMutedOverwrite: false,
   multiviewPresets: [],
 };
 

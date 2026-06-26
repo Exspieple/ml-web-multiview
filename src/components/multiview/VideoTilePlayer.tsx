@@ -4,6 +4,7 @@ import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
 import { cn } from "../../lib/utils";
 
 import ReactPlayer from "react-player";
+import { GlobalSettingsContext } from "../../contexts/GlobalSettingsContext";
 
 export default function VideoTileLabel({
   iframeRef: playerRef,
@@ -15,7 +16,11 @@ export default function VideoTileLabel({
   const thisVideoIndex = useContext(VideoTileIndexContext);
   const thisVideo = videoData[thisVideoIndex];
 
-    /* let thisVideoURL = "https://www.pexels.com/download/video/1430660/"; */
+  const { globalSettings, setGlobalSettings } = useContext(
+    GlobalSettingsContext,
+  );
+
+  //let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
 
   let thisVideoURL = "";
   switch (thisVideo.platform) {
@@ -44,7 +49,7 @@ export default function VideoTileLabel({
           playing={true}
           width="100%"
           height="100%"
-          muted={thisVideo.isMuted}
+          muted={thisVideo.isMuted || globalSettings.isMutedOverwrite}
         />
       </div>
     </>

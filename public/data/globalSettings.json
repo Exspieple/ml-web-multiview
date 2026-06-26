@@ -1,6 +1,6 @@
 {
       "isLabelsHidden": false,
-      "isMutedOverwrite": null,
+      "isMutedOverwrite": false,
       "multiviewPresets": [
         { "label": "African wildlife", "hrefJSON": "/data/webcamsAfricam.json"
         },

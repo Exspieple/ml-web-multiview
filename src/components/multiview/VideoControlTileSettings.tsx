@@ -80,7 +80,7 @@ function BtnReload() {
   );
 }
 
-function BtnSettings() {
+export function BtnSettings() {
   const { globalSettings, setGlobalSettings } = useContext(
     GlobalSettingsContext,
   );

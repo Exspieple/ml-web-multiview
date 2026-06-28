@@ -1,5 +1,4 @@
-import { createContext, useContext, useEffect, useState } from "react";
-import { GlobalSettingsContext } from "./GlobalSettingsContext";
+import { createContext, useState } from "react";
 
 interface VideoTileType {
   platform: string;
@@ -11,14 +10,14 @@ interface VideoTileType {
 }
 
 type VideoDataContextType = {
-  videoData: [VideoTileType];
+  videoData: VideoTileType[];
   setVideoData:
-    | React.Dispatch<React.SetStateAction<[VideoTileType]>>
+    | React.Dispatch<React.SetStateAction<VideoTileType[]>>
     | undefined;
 };
 
 export const VideoDataContext = createContext<VideoDataContextType>({
-  videoData: [{ platform: "", platformID: "" }],
+  videoData: [],
   setVideoData: undefined,
 });
 
@@ -27,17 +26,7 @@ export default function VideoDataContextProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const [videoData, setVideoData] = useState<[VideoTileType]>([
-    { platform: "", platformID: "" },
-  ]);
-
-  /* const { globalSettings } = useContext(GlobalSettingsContext);
-
-  useEffect(() => {
-    fetch(globalSettings.multiviewPresets[0]?.hrefJSON)
-      .then((res) => res.json())
-      .then(setVideoData);
-  }, [globalSettings.multiviewPresets[0]?.hrefJSON]); */
+  const [videoData, setVideoData] = useState<VideoTileType[]>([]);
 
   return (
     <VideoDataContext value={{ videoData, setVideoData }}>

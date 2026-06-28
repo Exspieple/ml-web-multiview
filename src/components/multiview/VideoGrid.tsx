@@ -12,7 +12,7 @@ export default function VideoGrid() {
   return (
     <>
       <div className="w-full h-full grid grid-cols-5 gap-0" style={{gridTemplateColumns: `repeat(${gridSize}, minmax(0, 1fr))`}}>
-        {videoData?.map((_, index) => (
+        {videoData.map((_, index) => (
           <VideoTileIndexContext key={index} value={index}>
             <VideoTile />
           </VideoTileIndexContext>

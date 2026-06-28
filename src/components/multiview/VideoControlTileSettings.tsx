@@ -20,7 +20,6 @@ export default function VideoControlTileSettings() {
   );
 }
 
-
 function BtnMute() {
   const { globalSettings, setGlobalSettings } = useContext(
     GlobalSettingsContext,
@@ -36,9 +35,11 @@ function BtnMute() {
   }
 
   return (
-    <Button variant={!globalSettings.isMutedOverwrite ? "outline" : "secondary"} onClick={toggleMutedOverwrite}>
+    <Button
+      variant={!globalSettings.isMutedOverwrite ? "outline" : "secondary"}
+      onClick={toggleMutedOverwrite}
+    >
       {!globalSettings.isMutedOverwrite ? <Volume2 /> : <VolumeX />}
-      
     </Button>
   );
 }
@@ -80,8 +81,21 @@ function BtnReload() {
 }
 
 function BtnSettings() {
+  const { globalSettings, setGlobalSettings } = useContext(
+    GlobalSettingsContext,
+  );
+
+  function toggleOpenSettings() {
+    if (!setGlobalSettings) return;
+
+    setGlobalSettings({
+      ...globalSettings,
+      isSettingsOpen: true,
+    });
+  }
+
   return (
-    <Button variant={"outline"}>
+    <Button variant={"outline"} onClick={toggleOpenSettings}>
       <Settings />
     </Button>
   );

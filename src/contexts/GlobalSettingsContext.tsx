@@ -3,13 +3,20 @@ import { createContext, useEffect, useState } from "react";
 interface GlobalSettingsType {
   isLabelsHidden: boolean;
   isMutedOverwrite: boolean;
-  multiviewPresets: { label: string; hrefJSON: string }[];
+  multiviewPresets: multiviewPresetType[];
+  isSettingsOpen: boolean;
+}
+
+export interface multiviewPresetType {
+  label: string;
+  hrefJSON: string;
 }
 
 const globalSettingsDefault = {
   isLabelsHidden: false,
   isMutedOverwrite: false,
   multiviewPresets: [],
+  isSettingsOpen: true,
 };
 
 type VideoDataContextType = {
@@ -36,7 +43,7 @@ export default function GlobalSettingsContextProvider({
   useEffect(() => {
     fetch("/data/globalSettings.json")
       .then((res) => res.json())
-      .then(setGlobalSettings);
+      .then((data) => setGlobalSettings({ ...globalSettingsDefault, ...data }));
   }, []);
 
   return (

@@ -31,13 +31,13 @@ export default function VideoDataContextProvider({
     { platform: "", platformID: "" },
   ]);
 
-  const { globalSettings } = useContext(GlobalSettingsContext);
+  /* const { globalSettings } = useContext(GlobalSettingsContext);
 
   useEffect(() => {
     fetch(globalSettings.multiviewPresets[0]?.hrefJSON)
       .then((res) => res.json())
       .then(setVideoData);
-  }, [globalSettings.multiviewPresets[0]?.hrefJSON]);
+  }, [globalSettings.multiviewPresets[0]?.hrefJSON]); */
 
   return (
     <VideoDataContext value={{ videoData, setVideoData }}>

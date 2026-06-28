@@ -65,7 +65,7 @@
     },
     {
         "platform": "image",
-        "platformID": "https://cam2.zurich-airport.com/live.cgi?ch=1&i=831190635343&",
+        "platformID": "https://cam2.zurich-airport.com/live.cgi?ch=1&i=865265217103",
         "label": "Zürich Airport (ZRH/LSZH) Dock B",
         "isMuted": true,
         "isHidden": false,
@@ -73,7 +73,7 @@
     },
     {
         "platform": "image",
-        "platformID": "https://cam3.zurich-airport.com/live.cgi?ch=1&i=966726986020",
+        "platformID": "https://cam3.zurich-airport.com/live.cgi?ch=1&i=557849433892",
         "label": "Zürich Airport (ZRH/LSZH) Dock E",
         "isMuted": true,
         "isHidden": false,
@@ -97,7 +97,7 @@
     },
     {
         "platform": "image",
-        "platformID": "https://cam6.zurich-airport.com/live.cgi?ch=1&i=11824274273&",
+        "platformID": "https://cam6.zurich-airport.com/live.cgi?ch=1&i=700059346785",
         "label": "Zürich Airport (ZRH/LSZH) Werft",
         "isMuted": true,
         "isHidden": false,
@@ -105,7 +105,7 @@
     },
     {
         "platform": "image",
-        "platformID": "https://cam5.zurich-airport.com/live.cgi?ch=1&i=389030812685&",
+        "platformID": "https://cam5.zurich-airport.com/live.cgi?ch=1&i=922210721805",
         "label": "Zürich Airport (ZRH/LSZH) Operations Center",
         "isMuted": true,
         "isHidden": false,

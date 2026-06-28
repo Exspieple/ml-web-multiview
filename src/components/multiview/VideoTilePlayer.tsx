@@ -1,4 +1,4 @@
-import { useContext, type JSX } from "react";
+import { useContext } from "react";
 import { VideoDataContext } from "../../contexts/VideoDataContext";
 import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
 import { cn } from "../../lib/utils";

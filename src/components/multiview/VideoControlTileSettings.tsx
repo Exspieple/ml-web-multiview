@@ -1,4 +1,4 @@
-import { LockOpen, RotateCw, Settings, Tag, Volume2, VolumeX } from "lucide-react";
+import { RotateCw, Settings, Tag, Volume2, VolumeX } from "lucide-react";
 import { Button } from "../ui/button";
 import { Separator } from "../ui/separator";
 import { useContext } from "react";
@@ -8,7 +8,6 @@ export default function VideoControlTileSettings() {
   return (
     <>
       <div className="flex gap-2 justify-center">
-        <BtnLock />
         <BtnMute />
         <BtnLabel />
 
@@ -21,13 +20,6 @@ export default function VideoControlTileSettings() {
   );
 }
 
-function BtnLock() {
-  return (
-    <Button variant={"outline"}>
-      <LockOpen />
-    </Button>
-  );
-}
 
 function BtnMute() {
   const { globalSettings, setGlobalSettings } = useContext(

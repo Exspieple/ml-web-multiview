@@ -6,23 +6,17 @@ import { cn } from "../../lib/utils";
 import ReactPlayer from "react-player";
 import { GlobalSettingsContext } from "../../contexts/GlobalSettingsContext";
 
-export default function VideoTileLabel({
-  iframeRef: playerRef,
-}: {
-  iframeRef?: React.RefObject<HTMLIFrameElement | null>;
-}) {
+export default function VideoTileLabel() {
   const { videoData } = useContext(VideoDataContext);
 
   const thisVideoIndex = useContext(VideoTileIndexContext);
   const thisVideo = videoData[thisVideoIndex];
 
-  const { globalSettings, setGlobalSettings } = useContext(
-    GlobalSettingsContext,
-  );
+  const { globalSettings } = useContext(GlobalSettingsContext);
 
-  let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
+  //let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
 
-  /* let thisVideoURL = "";
+  let thisVideoURL = "";
   switch (thisVideo.platform) {
     case "youtube":
       thisVideoURL =
@@ -32,12 +26,11 @@ export default function VideoTileLabel({
     default:
       thisVideoURL = thisVideo.platformID;
       break;
-  } */
+  }
 
   return (
     <>
       <div
-        /* ref={playerRef} */
         className={cn(
           "absolute w-full h-full",
           thisVideo.isLocked && "pointer-events-none",

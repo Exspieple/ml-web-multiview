@@ -5,7 +5,7 @@ import VideoTile from "./VideoTile";
 import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
 
 export default function VideoGrid() {
-  const { videoData, setVideoData } = useContext(VideoDataContext);
+  const { videoData } = useContext(VideoDataContext);
 
   const gridSize = Math.ceil(Math.sqrt(videoData.length + 1))
 

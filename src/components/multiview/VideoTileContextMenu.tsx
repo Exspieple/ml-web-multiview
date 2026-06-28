@@ -2,7 +2,6 @@ import {
   Fullscreen,
   Lock,
   LockOpen,
-  RotateCw,
   Volume2,
   VolumeX,
 } from "lucide-react";
@@ -18,7 +17,6 @@ import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
 
 export default function VideoTileContextMenu({
   children,
-  reloadFrame,
   toggleFullscreen,
 }: {
   children?: React.ReactNode;
@@ -39,16 +37,6 @@ export default function VideoTileContextMenu({
       videoData.toSpliced(thisVideoIndex, 1, thisVideo) as typeof videoData,
     );
   }
-
-  /* function toggleFullscreen() {    
-    if (!setVideoData) return;
-
-    thisVideo.isFullscreen = !thisVideo.isFullscreen;
-
-    setVideoData(
-      videoData.toSpliced(thisVideoIndex, 1, thisVideo) as typeof videoData,
-    );
-  }; */
 
   function toggleLock() {
     if (!setVideoData) return;
@@ -106,10 +94,6 @@ export default function VideoTileContextMenu({
               </>
             )}
           </ContextMenuItem>
-          {/* <ContextMenuItem variant={"destructive"} onClick={reloadFrame}>
-            <RotateCw />
-            <span>Reload tile</span>
-          </ContextMenuItem> */}
         </ContextMenuContent>
       </ContextMenu>
     </>

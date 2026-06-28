@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, type JSX } from "react";
 import { VideoDataContext } from "../../contexts/VideoDataContext";
 import { VideoTileIndexContext } from "../../contexts/VideoTileIndexContext";
 import { cn } from "../../lib/utils";
@@ -6,7 +6,7 @@ import { cn } from "../../lib/utils";
 import ReactPlayer from "react-player";
 import { GlobalSettingsContext } from "../../contexts/GlobalSettingsContext";
 
-export default function VideoTileLabel() {
+export default function VideoTilePlayer() {
   const { videoData } = useContext(VideoDataContext);
 
   const thisVideoIndex = useContext(VideoTileIndexContext);
@@ -14,9 +14,10 @@ export default function VideoTileLabel() {
 
   const { globalSettings } = useContext(GlobalSettingsContext);
 
-  let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
+  //let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
 
-  /* let thisVideoURL = "";
+  // Set video url
+  let thisVideoURL;
   switch (thisVideo.platform) {
     case "youtube":
       thisVideoURL =
@@ -26,7 +27,29 @@ export default function VideoTileLabel() {
     default:
       thisVideoURL = thisVideo.platformID;
       break;
-  } */
+  }
+
+  // render correct player
+  let playerElement;
+  switch (thisVideo.platform) {
+    case "image":
+      playerElement = (
+        <img src={thisVideo.platformID} className="w-full h-full" />
+      );
+      break;
+    default:
+      playerElement = (
+        <ReactPlayer
+          src={thisVideoURL}
+          controls={false}
+          playing={true}
+          width="100%"
+          height="100%"
+          muted={thisVideo.isMuted || globalSettings.isMutedOverwrite}
+        />
+      );
+      break;
+  }
 
   return (
     <>
@@ -36,14 +59,7 @@ export default function VideoTileLabel() {
           thisVideo.isLocked && "pointer-events-none",
         )}
       >
-        <ReactPlayer
-          src={thisVideoURL}
-          controls={true}
-          playing={true}
-          width="100%"
-          height="100%"
-          muted={thisVideo.isMuted || globalSettings.isMutedOverwrite}
-        />
+        { playerElement }
       </div>
     </>
   );

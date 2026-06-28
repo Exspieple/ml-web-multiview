@@ -3,11 +3,11 @@
     "isMutedOverwrite": false,
     "multiviewPresets": [
         {
-            "label": "Airports",
+            "label": "Airport 24/7 livestreams around the world",
             "hrefJSON": "/data/webcamsAirports.json"
         },
         {
-            "label": "African wildlife",
+            "label": "African wildlife webcams from Africam.com",
             "hrefJSON": "/data/webcamsAfricam.json"
         }
     ]

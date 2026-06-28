@@ -2,7 +2,7 @@
     {
         "platform": "youtube",
         "platformID": "fFl0qD108sk",
-        "label": "RNO Reno Airport",
+        "label": "Reno Tahoe Int. Airport (RNO/KRNO)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -10,15 +10,7 @@
     {
         "platform": "youtube",
         "platformID": "MH0_mPt-VXE",
-        "label": "MSY New Orleans",
-        "isMuted": true,
-        "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "youtube",
-        "platformID": "NtbquzembC8",
-        "label": "ACE Lanzarote Airport",
+        "label": "New Orleans Louis Armstrong Int. Airport (MSY/KMSY)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -26,7 +18,7 @@
     {
         "platform": "youtube",
         "platformID": "_-Qg5jD-PfA",
-        "label": "LAS Vegas Airport",
+        "label": "Las Vegas Harry Reid Int. Airport (LAS/KLAS)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -34,7 +26,23 @@
     {
         "platform": "youtube",
         "platformID": "2IQmpCXbOmM",
-        "label": "SXM Sint Maarten Maho Beach Airport",
+        "label": "Sint Maarten Maho Beach Airport (SXM/TNCM)",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "website",
+        "platformID": "https://ch-fra-n13.livespotting.com/vpu/lmcf1a3k/9dm5m0fb.m3u8",
+        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld West",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "website",
+        "platformID": "https://ch-fra-n16.livespotting.com/vpu/lmcf1a3k/4ag5p49y.m3u8",
+        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld Ost",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -42,15 +50,63 @@
     {
         "platform": "youtube",
         "platformID": "n4I0d44oBEs",
-        "label": "LAX Los Angeles Airport",
+        "label": "Los Angeles Int. Airport (LAX/KLAX) 24L/24R",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "RXmUt7GgoS4",
-        "label": "ATH Athens Airport",
+        "platformID": "KzsNnyN8D_Q",
+        "label": "Los Angeles Int. Airport (LAX/KLAX) 25L/25R",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "image",
+        "platformID": "https://cam2.zurich-airport.com/live.cgi?ch=1&i=831190635343&",
+        "label": "Zürich Airport (ZRH/LSZH) Dock B",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "image",
+        "platformID": "https://cam3.zurich-airport.com/live.cgi?ch=1&i=966726986020",
+        "label": "Zürich Airport (ZRH/LSZH) Dock E",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "NtbquzembC8",
+        "label": "Lanzarote Airport (ACE/GCRR)",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "LragTHYV7ug",
+        "label": "Madeira Airport (FNC/LPMA)",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "image",
+        "platformID": "https://cam6.zurich-airport.com/live.cgi?ch=1&i=11824274273&",
+        "label": "Zürich Airport (ZRH/LSZH) Werft",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "image",
+        "platformID": "https://cam5.zurich-airport.com/live.cgi?ch=1&i=389030812685&",
+        "label": "Zürich Airport (ZRH/LSZH) Operations Center",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -58,7 +114,7 @@
     {
         "platform": "youtube",
         "platformID": "sspBOJIrNzU",
-        "label": "PRG Prague Vaclav Havel Airport",
+        "label": "Prague Vaclav Havel Airport (PRG/LKPR)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true

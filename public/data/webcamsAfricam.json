@@ -2,7 +2,7 @@
     {
         "platform": "youtube",
         "platformID": "LaicUirnDJ4",
-        "label": "Founders Lodge",
+        "label": "Founder's Lodge",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -10,7 +10,7 @@
     {
         "platform": "youtube",
         "platformID": "DhCfRI7XssU",
-        "label": "Hwange Safari Lodge - Zimbabwe",
+        "label": "Hwange Safari Lodge",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -18,7 +18,7 @@
     {
         "platform": "youtube",
         "platformID": "QJe1tGI1EZc",
-        "label": "Elephant Pan (Hyena Pan) - Botswana",
+        "label": "Elephant Pan (Hyena Pan)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -50,7 +50,7 @@
     {
         "platform": "youtube",
         "platformID": "bEmFpjwMOvs",
-        "label": "Lentorre, Kenya",
+        "label": "Lentorre",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -90,7 +90,7 @@
     {
         "platform": "youtube",
         "platformID": "qwvk5hbEJnY",
-        "label": "Safarihoek - Namibia",
+        "label": "Safarihoek",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -138,7 +138,7 @@
     {
         "platform": "youtube",
         "platformID": "nXI-kWu6BLo",
-        "label": "Hwange Waterhole, Zimbabwe",
+        "label": "Hwange Waterhole",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -154,7 +154,7 @@
     {
         "platform": "youtube",
         "platformID": "54Y7xlLrkuo",
-        "label": "Moela Safari Lodge Boteti River, Botswana",
+        "label": "Moela Safari Lodge Boteti River",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -162,7 +162,7 @@
     {
         "platform": "youtube",
         "platformID": "mk02pEy3FdA",
-        "label": "Camelthorn Waterhole Botswana",
+        "label": "Camelthorn Waterhole",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -170,7 +170,7 @@
     {
         "platform": "youtube",
         "platformID": "_AyumoafMOU",
-        "label": "Kings Camp",
+        "label": "King's Camp",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -186,7 +186,7 @@
     {
         "platform": "youtube",
         "platformID": "jG0uYl5S44E",
-        "label": "Jack’s Camp, Kalahari",
+        "label": "Jack's Camp Kalahari",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true

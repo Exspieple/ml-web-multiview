@@ -14,7 +14,8 @@ export default function VideoTilePlayer() {
 
   const { globalSettings } = useContext(GlobalSettingsContext);
 
-  //let thisVideoURL = "https://www.pexels.com/download/video/1430660/";
+  const testPictureURL = "https://data.mactechnews.de/Resized/391762_1200x630_Cover_Zoom.jpg";
+  
 
   // Set video url
   let thisVideoURL;
@@ -31,24 +32,30 @@ export default function VideoTilePlayer() {
 
   // render correct player
   let playerElement;
-  switch (thisVideo.platform) {
-    case "image":
-      playerElement = (
-        <img src={thisVideo.platformID} className="w-full h-full" />
-      );
-      break;
-    default:
-      playerElement = (
-        <ReactPlayer
-          src={thisVideoURL}
-          controls={false}
-          playing={true}
-          width="100%"
-          height="100%"
-          muted={thisVideo.isMuted || globalSettings.isMutedOverwrite}
-        />
-      );
-      break;
+  if (globalSettings.isTestMode) {
+    playerElement = (
+          <img src={testPictureURL} className="w-full h-full" />
+        );
+  } else {
+    switch (thisVideo.platform) {
+      case "image":
+        playerElement = (
+          <img src={thisVideo.platformID} className="w-full h-full" />
+        );
+        break;
+      default:
+        playerElement = (
+          <ReactPlayer
+            src={thisVideoURL}
+            controls={false}
+            playing={true}
+            width="100%"
+            height="100%"
+            muted={thisVideo.isMuted || globalSettings.isMutedOverwrite}
+          />
+        );
+        break;
+    }
   }
 
   return (
@@ -59,7 +66,7 @@ export default function VideoTilePlayer() {
           thisVideo.isLocked && "pointer-events-none",
         )}
       >
-        { playerElement }
+        {playerElement}
       </div>
     </>
   );

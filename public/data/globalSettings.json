@@ -1,6 +1,7 @@
 {
     "isLabelsHidden": false,
     "isMutedOverwrite": false,
+    "isTestMode": false,
     "multiviewPresets": [
         {
             "label": "Airport 24/7 livestreams around the world",
@@ -13,6 +14,10 @@
         {
             "label": "TV stations Germany",
             "hrefJSON": "/data/tvStationsGermany.json"
+        },
+        {
+            "label": "TV stations Europe",
+            "hrefJSON": "/data/tvStationsEurope.json"
         }
     ]
 }

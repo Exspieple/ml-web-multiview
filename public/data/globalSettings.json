@@ -14,10 +14,6 @@
         {
             "label": "TV stations Germany",
             "hrefJSON": "/data/tvStationsGermany.json"
-        },
-        {
-            "label": "TV stations Europe",
-            "hrefJSON": "/data/tvStationsEurope.json"
         }
     ]
 }

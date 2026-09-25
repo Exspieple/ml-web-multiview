@@ -1,152 +1,192 @@
 [
     {
         "platform": "youtube",
-        "platformID": "fFl0qD108sk",
-        "label": "Reno Tahoe Int. Airport (RNO/KRNO)",
+        "platformID": "LaicUirnDJ4",
+        "label": "Founder's Lodge",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "MH0_mPt-VXE",
-        "label": "New Orleans Louis Armstrong Int. Airport (MSY/KMSY)",
+        "platformID": "DhCfRI7XssU",
+        "label": "Hwange Safari Lodge",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "V7_orOtu-oo",
-        "label": "Las Vegas Harry Reid Int. Airport (LAS/KLAS)",
+        "platformID": "QJe1tGI1EZc",
+        "label": "Elephant Pan (Hyena Pan)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "2IQmpCXbOmM",
-        "label": "Sint Maarten Maho Beach Airport (SXM/TNCM)",
+        "platformID": "8JzwlpcVyKM",
+        "label": "Jabulani",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "zDbWlBsdozQ",
-        "label": "Milwaukee Mitchell International Airport (MKE/KMKE)",
+        "platformID": "RZFMYVNhd4k",
+        "label": "Meno a Kwena",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "OUBslrCqREs",
-        "label": "LaGuardia Airport (LGA/KLGA)",
+        "platformID": "ZWhvO6R37ck",
+        "label": "Mahali Mzuri Lodge",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "n4I0d44oBEs",
-        "label": "Los Angeles Int. Airport (LAX/KLAX) 24L/24R",
+        "platformID": "bEmFpjwMOvs",
+        "label": "Lentorre",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "KzsNnyN8D_Q",
-        "label": "Los Angeles Int. Airport (LAX/KLAX) 25L/25R",
-        "isMuted": true,
-        "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "website",
-        "platformID": "https://ch-fra-n13.livespotting.com/vpu/lmcf1a3k/9dm5m0fb.m3u8",
-        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld West",
-        "isMuted": true,
-        "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "website",
-        "platformID": "https://ch-fra-n16.livespotting.com/vpu/lmcf1a3k/4ag5p49y.m3u8",
-        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld Ost",
-        "isMuted": true,
-        "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "website",
-        "platformID": "https://stream-5gw.1000eyes.de/cupertino/dus1ba9.stream/playlist.m3u8",
-        "label": "Airport Düsseldorf (DUS/EDDL)",
-        "isMuted": true,
-        "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "website",
-        "platformID": "https://stream-5gw.1000eyes.de/cupertino/cgnCDB73A.stream/playlist.m3u8",
-        "label": "Flughafen Köln/Bonn (CGN/EDDK)",
+        "platformID": "S4GIPXZnQTM",
+        "label": "Naledi Dam",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "4nC8r5neaow",
-        "label": "Lanzarote Airport (ACE/GCRR)",
+        "platformID": "XsOU8JnEpNM",
+        "label": "ol Donyo Lodge",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "8Drrabk3h6M",
-        "label": "Madeira Airport (FNC/LPMA)",
+        "platformID": "NapztoCaKFY",
+        "label": "Olifants River",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
-        "platform": "image",
-        "platformID": "https://cam2.zurich-airport.com/live.cgi?ch=1&i=831190635343&",
-        "label": "Zürich Airport (ZRH/LSZH) Dock B",
+        "platform": "youtube",
+        "platformID": "Cq2qCph6Lx8",
+        "label": "Rosie's Pan",
         "isMuted": true,
-        "isHidden": true,
-        "isLocked": true
-    },
-    {
-        "platform": "image",
-        "platformID": "https://cam3.zurich-airport.com/live.cgi?ch=1&i=966726986020",
-        "label": "Zürich Airport (ZRH/LSZH) Dock E",
-        "isMuted": true,
-        "isHidden": true,
-        "isLocked": true
-    },
-    {
-        "platform": "image",
-        "platformID": "https://cam6.zurich-airport.com/live.cgi?ch=1&i=11824274273&",
-        "label": "Zürich Airport (ZRH/LSZH) Werft",
-        "isMuted": true,
-        "isHidden": true,
-        "isLocked": true
-    },
-    {
-        "platform": "image",
-        "platformID": "https://cam5.zurich-airport.com/live.cgi?ch=1&i=389030812685&",
-        "label": "Zürich Airport (ZRH/LSZH) Operations Center",
-        "isMuted": true,
-        "isHidden": true,
+        "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "Deo_lcwn8lk",
-        "label": "Prague Vaclav Havel Airport (PRG/LKPR)",
+        "platformID": "qwvk5hbEJnY",
+        "label": "Safarihoek",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "Xe9CPAdyAro",
+        "label": "Finch Hattons, Tsavo National Park",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "f9uqHbXChno",
+        "label": "Victoria Falls Safari Lodge",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "aWglOXp5id0",
+        "label": "Kwa Maritane",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "BMQifTcOgts",
+        "label": "Serondella",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "jH3e5w4BWGA",
+        "label": "Zambezi River",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "ljLeMq_KXpY",
+        "label": "Hwange Waterhole",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "BmOLK7LTKbY",
+        "label": "Serengeti",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "54Y7xlLrkuo",
+        "label": "Moela Safari Lodge Boteti River",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "mk02pEy3FdA",
+        "label": "Camelthorn Waterhole",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "_AyumoafMOU",
+        "label": "King's Camp",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "v4zcdC-fEKw",
+        "label": "Victoria Falls Safari Lodge",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "youtube",
+        "platformID": "jG0uYl5S44E",
+        "label": "Jack's Camp Kalahari",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true

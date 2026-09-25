@@ -2,15 +2,7 @@
     {
         "platform": "stream-m3u8",
         "platformID": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
-        "label": "ARD",
-        "isMuted": true,
-        "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "stream-m3u8",
-        "platformID": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
-        "label": "ARD Tagesschau",
+        "label": "ARD (DE)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -18,15 +10,7 @@
     {
         "platform": "stream-m3u8",
         "platformID": "http://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8",
-        "label": "ZDF",
-        "isMuted": true,
-        "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "stream-m3u8",
-        "platformID": "http://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8",
-        "label": "Phoenix",
+        "label": "ZDF (DE)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -34,7 +18,7 @@
     {
         "platform": "stream-m3u8",
         "platformID": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
-        "label": "DW",
+        "label": "DW (DE)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -42,89 +26,81 @@
     {
         "platform": "stream-m3u8",
         "platformID": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8",
-        "label": "ARTE DE",
+        "label": "ARTE (DE)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "http://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8",
-        "label": "ZDF info",
+        "platformID": "https://orf1.mdn.ors.at/out/u/orf1/qxb/manifest.m3u8",
+        "label": "ORF 1 (AT)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8",
-        "label": "RBB Berlin",
+        "platformID": "https://orf2.mdn.ors.at/out/u/orf2/qxb/manifest.m3u8",
+        "label": "ORF 2 (AT)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8",
-        "label": "BR Nord",
+        "platformID": "https://orf3.mdn.ors.at/out/u/orf3/qxb/manifest.m3u8",
+        "label": "ORF 3 (AT)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8",
-        "label": "SWR BW",
+        "platformID": "https://orfs.mdn.ors.at/out/u/orfs/qxb/manifest.m3u8",
+        "label": "ORF Sport (AT)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8",
-        "label": "HR",
+        "platformID": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
+        "label": "France24 (FR)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8",
-        "label": "NDR Hamburg",
+        "platformID": "http://69.64.57.208/france5/mono.m3u8",
+        "label": "France 5 (FR)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8",
-        "label": "WDR",
+        "platformID": "https://ott.tv5monde.com/Content/HLS/Live/channel(fbs)/variant.m3u8",
+        "label": "TV5 Monde (FR)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8",
-        "label": "MDR Sachsen",
+        "platformID": "https://58de7a369a9c4.streamlock.net/srf/stream_720p/playlist.m3u8",
+        "label": "SRF (CH)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "stream-m3u8",
-        "platformID": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8",
-        "label": "3sat",
+        "platformID": "http://23.237.104.106:8080/USA_BBC_NEWS/index.m3u8",
+        "label": "BBC News (UK)",
         "isMuted": true,
         "isHidden": false,
-        "isLocked": true
-    },
-    {
-        "platform": "stream-m3u8",
-        "platformID": "https://welt.personalstream.tv/v1/master.m3u8",
-        "label": "Welt.tv",
-        "isMuted": true,
-        "isHidden": true,
         "isLocked": true
     }
 ]

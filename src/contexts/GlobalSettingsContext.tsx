@@ -3,6 +3,7 @@ import { createContext, useEffect, useState } from "react";
 interface GlobalSettingsType {
   isLabelsHidden: boolean;
   isMutedOverwrite: boolean;
+  isTestMode: boolean;
   multiviewPresets: multiviewPresetType[];
   isSettingsOpen: boolean;
 }
@@ -15,6 +16,7 @@ export interface multiviewPresetType {
 const globalSettingsDefault = {
   isLabelsHidden: false,
   isMutedOverwrite: false,
+  isTestMode: false,
   multiviewPresets: [],
   isSettingsOpen: true,
 };

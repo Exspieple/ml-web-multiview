@@ -9,6 +9,10 @@
         {
             "label": "African wildlife webcams from Africam.com",
             "hrefJSON": "/data/webcamsAfricam.json"
+        },
+        {
+            "label": "TV stations Germany",
+            "hrefJSON": "/data/tvStationsGermany.json"
         }
     ]
 }

@@ -1,0 +1,122 @@
+[
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://daserste-live.ard-mcdn.de/daserste/live/hls/de/master.m3u8",
+        "label": "ARD",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://tagesschau.akamaized.net/hls/live/2020115/tagesschau/tagesschau_1/master.m3u8",
+        "label": "ARD Tagesschau",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "http://zdf-hls-15.akamaized.net/hls/live/2016498/de/high/master.m3u8",
+        "label": "ZDF",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "http://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8",
+        "label": "Phoenix",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
+        "label": "DW",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://artesimulcast.akamaized.net/hls/live/2030993/artelive_de/index.m3u8",
+        "label": "ARTE DE",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "http://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8",
+        "label": "ZDF info",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8",
+        "label": "RBB Berlin",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://mcdn.br.de/br/fs/bfs_nord/hls/de/master.m3u8",
+        "label": "BR Nord",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://swrbwd-hls.akamaized.net/hls/live/2018672/swrbwd/master.m3u8",
+        "label": "SWR BW",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://hrhls.akamaized.net/hls/live/2024525/hrhls/master.m3u8",
+        "label": "HR",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://mcdn.ndr.de/ndr/hls/ndr_fs/ndr_hh/master.m3u8",
+        "label": "NDR Hamburg",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8",
+        "label": "WDR",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/master.m3u8",
+        "label": "MDR Sachsen",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "stream-m3u8",
+        "platformID": "https://zdf-hls-18.akamaized.net/hls/live/2016501/dach/high/master.m3u8",
+        "label": "3sat",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    }
+]

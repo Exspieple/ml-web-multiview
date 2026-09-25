@@ -17,7 +17,7 @@
     },
     {
         "platform": "youtube",
-        "platformID": "_-Qg5jD-PfA",
+        "platformID": "V7_orOtu-oo",
         "label": "Las Vegas Harry Reid Int. Airport (LAS/KLAS)",
         "isMuted": true,
         "isHidden": false,
@@ -32,17 +32,17 @@
         "isLocked": true
     },
     {
-        "platform": "website",
-        "platformID": "https://ch-fra-n13.livespotting.com/vpu/lmcf1a3k/9dm5m0fb.m3u8",
-        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld West",
+        "platform": "youtube",
+        "platformID": "zDbWlBsdozQ",
+        "label": "Milwaukee Mitchell International Airport (MKE/KMKE)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
-        "platform": "website",
-        "platformID": "https://ch-fra-n16.livespotting.com/vpu/lmcf1a3k/4ag5p49y.m3u8",
-        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld Ost",
+        "platform": "youtube",
+        "platformID": "OUBslrCqREs",
+        "label": "LaGuardia Airport (LGA/KLGA)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
@@ -64,24 +64,40 @@
         "isLocked": true
     },
     {
-        "platform": "image",
-        "platformID": "https://cam2.zurich-airport.com/live.cgi?ch=1&i=831190635343&",
-        "label": "Zürich Airport (ZRH/LSZH) Dock B",
+        "platform": "website",
+        "platformID": "https://ch-fra-n13.livespotting.com/vpu/lmcf1a3k/9dm5m0fb.m3u8",
+        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld West",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
-        "platform": "image",
-        "platformID": "https://cam3.zurich-airport.com/live.cgi?ch=1&i=966726986020",
-        "label": "Zürich Airport (ZRH/LSZH) Dock E",
+        "platform": "website",
+        "platformID": "https://ch-fra-n16.livespotting.com/vpu/lmcf1a3k/4ag5p49y.m3u8",
+        "label": "Albrecht Dürer Airport (NUE/EDDN) Vorfeld Ost",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "website",
+        "platformID": "https://stream-5gw.1000eyes.de/cupertino/dus1ba9.stream/playlist.m3u8",
+        "label": "Airport Düsseldorf (DUS/EDDL)",
+        "isMuted": true,
+        "isHidden": false,
+        "isLocked": true
+    },
+    {
+        "platform": "website",
+        "platformID": "https://stream-5gw.1000eyes.de/cupertino/cgnCDB73A.stream/playlist.m3u8",
+        "label": "Flughafen Köln/Bonn (CGN/EDDK)",
         "isMuted": true,
         "isHidden": false,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "NtbquzembC8",
+        "platformID": "4nC8r5neaow",
         "label": "Lanzarote Airport (ACE/GCRR)",
         "isMuted": true,
         "isHidden": false,
@@ -89,7 +105,7 @@
     },
     {
         "platform": "youtube",
-        "platformID": "LragTHYV7ug",
+        "platformID": "8Drrabk3h6M",
         "label": "Madeira Airport (FNC/LPMA)",
         "isMuted": true,
         "isHidden": false,
@@ -97,10 +113,26 @@
     },
     {
         "platform": "image",
+        "platformID": "https://cam2.zurich-airport.com/live.cgi?ch=1&i=831190635343&",
+        "label": "Zürich Airport (ZRH/LSZH) Dock B",
+        "isMuted": true,
+        "isHidden": true,
+        "isLocked": true
+    },
+    {
+        "platform": "image",
+        "platformID": "https://cam3.zurich-airport.com/live.cgi?ch=1&i=966726986020",
+        "label": "Zürich Airport (ZRH/LSZH) Dock E",
+        "isMuted": true,
+        "isHidden": true,
+        "isLocked": true
+    },
+    {
+        "platform": "image",
         "platformID": "https://cam6.zurich-airport.com/live.cgi?ch=1&i=11824274273&",
         "label": "Zürich Airport (ZRH/LSZH) Werft",
         "isMuted": true,
-        "isHidden": false,
+        "isHidden": true,
         "isLocked": true
     },
     {
@@ -108,12 +140,12 @@
         "platformID": "https://cam5.zurich-airport.com/live.cgi?ch=1&i=389030812685&",
         "label": "Zürich Airport (ZRH/LSZH) Operations Center",
         "isMuted": true,
-        "isHidden": false,
+        "isHidden": true,
         "isLocked": true
     },
     {
         "platform": "youtube",
-        "platformID": "sspBOJIrNzU",
+        "platformID": "Deo_lcwn8lk",
         "label": "Prague Vaclav Havel Airport (PRG/LKPR)",
         "isMuted": true,
         "isHidden": false,
